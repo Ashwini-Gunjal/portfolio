@@ -360,3 +360,111 @@ nav .right a span {
   
 
  
+
+ /* Mobile Responsive Additions */
+ @media (max-width: 480px) {
+   /* Header/Nav */
+   nav {
+     padding: 0 15px;
+   }
+   
+   nav .right a {
+     margin: 0 5px;
+     font-size: 14px;
+   }
+   
+   nav .left a {
+     font-size: 18px;
+   }
+   
+   /* Hero Section */
+   .hero-section {
+     flex-direction: column;
+     padding: 0 20px;
+     margin-bottom: 200px;
+   }
+   
+   .hero-section .text {
+     order: 2;
+     text-align: center;
+   }
+   
+   .hero-section .headshot {
+     order: 1;
+     justify-content: center;
+     margin-bottom: 30px;
+   }
+   
+   .hero-section .headshot img {
+     width: 250px;
+   }
+   
+   .hero-section .text h2 {
+     font-size: 28px;
+   }
+   
+   .hero-section .text .links {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+   }
+   
+   /* About Section */
+   .about-me {
+     padding: 0 20px;
+     margin-bottom: 200px;
+   }
+   
+   .about-me .text {
+     margin-bottom: 50px;
+   }
+   
+   .about-me h2 {
+     font-size: 28px;
+   }
+   
+   /* Skills Section */
+   .skills-section {
+     padding: 0 20px;
+     margin-bottom: 200px;
+   }
+   
+   .skills-section h2 {
+     font-size: 28px;
+   }
+   
+   .skills-section .cells .cell {
+     width: 150px;
+     padding: 8px 10px;
+   }
+   
+   /* Contact Section */
+   .contact-section {
+     padding: 0 20px;
+   }
+   
+   .contact-section h2 {
+     font-size: 28px;
+   }
+   
+   .contact-section .group .text {
+     margin-top: 50px;
+   }
+ }
+ 
+ @media (max-width: 360px) {
+   /* For very small devices */
+   .hero-section .headshot img {
+     width: 200px;
+   }
+   
+   .skills-section .cells .cell {
+     width: 120px;
+     font-size: 14px;
+   }
+   
+   nav .right a {
+     font-size: 12px;
+   }
+ }
+ 
